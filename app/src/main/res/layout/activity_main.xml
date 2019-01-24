@@ -5,16 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_weight="1"
+    android:background="@drawable/main_background"
     tools:context=".MainActivity">
 
 
     <ImageView
-        android:layout_width="256dp"
-        android:layout_height="101dp"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
         android:layout_gravity="center"
-        android:layout_weight="1"
-        android:background="@drawable/Logo"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/logo"
         android:padding="5dp" />
 
 
@@ -25,29 +26,34 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center"
-        android:layout_weight="2">
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp">
 
         <Button
             android:id="@+id/mTravelBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:drawableTop="@drawable/ic_travel"
-            android:background="#010BFF"
-            android:padding="15dp"
+            android:background="@drawable/button_background"
+            android:layout_marginRight="5dp"
+            android:padding="5dp"
             android:textStyle="bold"
-            android:textSize="30sp"
+            android:textSize="20sp"
             android:textAllCaps="false"
-            android:text="Travel Agency"/>
+            android:text="Travelling Agency"/>
 
         <Button
             android:id="@+id/mRecruitBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:drawableTop="@drawable/ic_recruit"
-            android:background="#010BFF"
-            android:padding="10dp"
+            android:background="@drawable/button_background"
+            android:layout_marginLeft="5dp"
+            android:padding="5dp"
             android:textStyle="bold"
-            android:textSize="30sp"
+            android:textSize="20sp"
             android:textAllCaps="false"
             android:text="Recruiting Agency"/>
 
