@@ -18,8 +18,8 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        travelButton.findViewById(R.id.mTravelBtn);
-        recruitButton.findViewById(R.id.mRecruitBtn);
+        travelButton = (Button) findViewById(R.id.mTravelBtn);
+        recruitButton = (Button) findViewById(R.id.mRecruitBtn);
 
    travelButton.setOnClickListener(new View.OnClickListener() {
        @Override
